@@ -1,0 +1,48 @@
+.categories {
+  margin-bottom: 2.5rem;
+
+  padding: 0 7rem 0 7rem;
+}
+
+.categories__topic {
+  margin-bottom: 1rem;
+}
+
+.categories__photos {
+  gap: 2rem;
+}
+
+.categories__photo img {
+  width: 300px;
+}
+
+.categories__photo p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.categories__photos--top {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.categories__photos--bottom {
+  display: flex;
+  gap: 1.5rem;
+}
+
+@media only screen and (max-width: 505px) and (min-width: 320px) {
+  .categories {
+    padding: 0;
+    text-align: center;
+  }
+  .categories__photo img {
+    width: 200px;
+  }
+  .categories__photos--top,
+  .categories__photos--bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,10 @@
+export { default as Categories } from "./Categories/Categories";
+export { default as Courses } from "./Courses/Courses";
+export { default as CoursesRates } from "./CoursesRates/CoursesRates";
+export { default as DiscountBar } from "./DiscountBar/DiscountBar";
+export { default as FeaturedTopics } from "./FeaturedTopics/FeaturedTopics";
+export { default as Footer } from "./Footer/Footer";
+export { default as Header } from "./Header/Header";
+export { default as Introduce } from "./Introduce/Introduce";
+export { default as Nav } from "./Nav/Nav";
+export { default as View } from "./View/View";

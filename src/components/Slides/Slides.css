@@ -1,0 +1,62 @@
+.slide {
+  width: 250px;
+}
+
+.slide__topic {
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.slide__author {
+  font-size: 14px;
+  padding-bottom: 0.25rem;
+}
+
+.slide__rate {
+  padding-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.slide__rate-rate {
+  color: rgb(180, 105, 14);
+}
+
+.slide__rate-stars {
+  color: rgb(229, 152, 25);
+}
+
+.slide__rate-reviews {
+  font-size: 12px;
+  color: rgb(120, 121, 122);
+}
+
+.slide__price {
+  padding-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.discount_price {
+  font-weight: bold;
+}
+
+.real_price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: rgb(120, 121, 122);
+}
+
+.slide__bestseller {
+  background-color: rgb(236, 235, 152);
+  color: rgb(60, 61, 10);
+  margin-top: 0.25rem;
+  width: fit-content;
+  padding: 0.1rem;
+}
+
+.slide__bestseller p {
+  font-size: 13px;
+}
